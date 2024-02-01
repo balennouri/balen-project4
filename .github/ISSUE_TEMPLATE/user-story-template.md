@@ -1,5 +1,5 @@
 ---
-name: Eliteplayer template
+name: User story template
 about: Custom template for project Eliteplayer
 title: ''
 labels: ''
