@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-Admin/User
+As a **Role** I can **Capability** so that **received benefits** 
 
 
 ### Acceptance Criteria
