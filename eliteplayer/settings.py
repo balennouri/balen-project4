@@ -97,6 +97,13 @@ DATABASES = {
     'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
 }
 
+
+CSRF_TRUSTED_ORIGINS = [
+'https://*8000-balennouri-balenproject-i3n327z1ykb.ws-eu107.gitpod.io',
+'https://*8000-balennouri-balenproject-i3n327z1ykb.ws-eu107.gitpod.io',
+'https://*.herokuapp.com'
+]
+
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
